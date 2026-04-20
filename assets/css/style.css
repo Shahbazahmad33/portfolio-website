@@ -367,6 +367,14 @@ img {
 
   #hero .hero-detail-card {
     padding: 8px;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: min(320px, 100%);
+  }
+
+  #hero .hero-detail-photo {
+    object-position: center center;
   }
 
   #hero h1 {
