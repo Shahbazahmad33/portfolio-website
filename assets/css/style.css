@@ -472,6 +472,35 @@ section {
   line-height: 0;
 }
 
+.about .content ul li.certifications-item {
+  align-items: flex-start;
+}
+
+.about .content .certifications-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.about .content .cert-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: #e9f3ff;
+  color: #1f3c63;
+  border: 1px solid #cde4ff;
+  font-size: 14px;
+  line-height: 1.35;
+  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.about .content .cert-badge:hover {
+  background: #dfefff;
+  border-color: #b8d8ff;
+  transform: translateY(-1px);
+}
+
 .about .content p:last-child {
   margin-bottom: 0;
 }
